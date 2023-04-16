@@ -32,7 +32,7 @@
 * {
   margin: 0;
   /* usar como padrão para tamanho de linha adaptativa */
-  line-height: calc(1em+0.5rem);
+  line-height: calc(1em + 0.5rem);
 }
 
 html {
