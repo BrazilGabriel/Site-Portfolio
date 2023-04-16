@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <title>Portfolio Gabriel</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="#sobre">Sobre</a>
+        </li>
+        <li>
+          <a class="header__link" href="#destaque">Destaque</a>
+        </li>
+        <li>
+          <a class="header__link" href=#contato>Contato</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <button class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="header__resume btn" href="#">Currículo</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+
+      </button>
+    </nav>
+  </header>
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav">
+    <nav>
+      <ul class="mobile-nav__menu">
+        <li>
+          <a class="mobile-nav__link" href="#sobre">Sobre</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#destaque">Destaque</a>
+        </li>
+        <li>
+          <a class="mobile-nav__link" href="#contato">Contato</a>
+        </li>
+        <li class="mobile-nav__link-line"></li>
+        <li>
+          <button class="mobile-nav__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="mobile-nav__btn btn" href="#">Currículo</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- End of Mobile Navigation -->
+  <main>
+    <section class="intro container">
+      <img class="intro__img" src="/avatar.png" alt="Foto de perfil">
+      <h2 class="intro__subtitle">Olá, eu sou Gabriel 🙂</h2>
+      <h1 class="intro__title">Desenvolvedor<br>Front-end<strong>.</strong></h1>
+      <p class="intro__description">Um <strong>Desenvolvedor Front-end</strong> com paixão pelo código e olho afiado
+        para design <strong>UX/UI</strong>.
+        Comprometido em criar experiências incríveis na web!</p>
+      <a class="intro__btn btn" href="#">Contate-me</a>
+    </section>
+    <section class="about container section" id="sobre">
+      <div class="about__content">
+        <h2 class="about__title">Sobre</h2>
+        <p class="about__description">
+          Olá, visitante! Sou um <strong>Desenvolvedor Front-end</strong> residente na cidade de Manaus e apaixonado por
+          transformar
+          ideias em interfaces atraentes e funcionais.
+        </p>
+        <p class="about__description">
+          Atualmente estou migrando da área de UX/UI Design para o desenvolvimento Front-end, e estou buscando a minha
+          primeira oportunidade na área de <strong>programação web</strong>. Sempre em busca de aprimoramento, estou
+          empenhado em criar produtos web de alto
+          desempenho e impacto visual, trazendo vida às ideias com criatividade, habilidade técnica e dedicação.
+        </p>
+        <p class="about__description">
+          Combinado com minha experiência como UX/UI designer, meu compromisso é criar soluções digitais cativantes,
+          combinando
+          <strong>código elegante e design intuitivo</strong> para oferecer a melhor experiência de usuário possível.
+        </p>
+        <hr class="about__hr">
+        <h3 class="about__subtitle">Tecnologias</h3>
+        <div class="about__ul-container">
+          <ul class="about__ul">
+            <li class="about__list">Javascript (ES6+)</li>
+            <li class="about__list">CSS</li>
+            <li class="about__list">HTML</li>
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">ReactJS</li>
+            <li class="about__list">TailwindCSS</li>
+            <li class="about__list">Figma</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img-wrapper">
+        <img class="about__img" src="/about.png" alt="Foto secundaria">
+      </div>
+    </section>
+    <section class="featured container section" id="destaque">
+      <h3 class="featured__subtitle">Projeto em destaque</h3>
+      <div class="featured__wrapper-title">
+        <h2 class="featured__title">Music Dot</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+      <p class="featured__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt praesentium sapiente ullam ducimus nam animi
+        quaerat, facilis laboriosam autem expedita commodi fugiat earum consequatur et quo enim esse dignissimos omnis.
+      </p>
+      <div class="featured__info-container">
+        <div>
+          <h3 class="featured__label">Tech stack</h3>
+          <ul class="featured__tech-stack">
+            <li class="featured__info">TailwindCSS</li>
+            <li class="featured__info">ReactJS</li>
+            <li class="featured__info">React-hook-form</li>
+            <li class="featured__info">NextJS</li>
+            <li class="featured__info">Axios</li>
+            <li class="featured__info">Supabase</li>
+            <li class="featured__info">Stripe</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__label">Tipo do Projeto</h3>
+          <p class="featured__info">Fullstack-Jamstack</p>
+        </div>
+        <div>
+          <h3 class="featured__label">Timeline</h3>
+          <p class="featured__info">Dezembro 2022 - presente</p>
+        </div>
+      </div>
+      <div class="featured__img-container">
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-01.png" alt="Projeto Music dot home">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-02.png" alt="Projeto Music dot preços">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-03.png" alt="Projeto Music dot beneficios">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-04.png" alt="Projeto Music dot youtube">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-05.png" alt="Projeto Music dot app">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/musicdot-06.png" alt="Projeto Music dot historia">
+        </div>
+      </div>
+    </section>
+    <section class="work container section">
+      <h2 class="work__title">Projetos</h2>
+      <p class="work__description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea possimus minus minima molestias provident dolore
+        repellendus, eligendi sequi quos ipsa odit odio voluptatum? Explicabo recusandae earum qui reiciendis fugiat
+        assumenda!
+      </p>
+      <div class="work__container">
+        <!-- Project 01 -->
+        <h3 class="work__project-title">Projeto 1</h3>
+        <div class="work__img-wrapper work__image1">
+          <img src="/projects.png" alt="Projeto 1">
+        </div>
+        <div class="work__project work__content1">
+          <h3 class="work__project-subtitle">Projeto 1</h3>
+          <p class="work__project-description1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error odio ex enim dolor quaerat rem quisquam
+            odit optio dolore repellendus facere ipsam, vitae temporibus voluptatem eligendi eum, beatae ut.
+          </p>
+          <p class="work__project-description2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorem corrupti soluta, architecto tempore
+            omnis. Maxime nemo laudantium commodi necessitatibus non earum, repellendus deleniti vitae sapiente?
+            Excepturi
+            maiores ratione possimus?
+          </p>
+          <a class="btn work__project-btn" href="">Website</a>
+        </div>
+        <!-- Project 02 -->
+        <h3 class="work__project-title">Projeto 2</h3>
+        <div class="work__img-wrapper work__image2">
+          <img src="/projects.png" alt="Projeto 2">
+        </div>
+        <div class="work__project work__content2">
+          <h3 class="work__project-subtitle">Projeto 2</h3>
+          <p class="work__project-description1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error odio ex enim dolor quaerat rem quisquam
+            odit optio dolore repellendus facere ipsam, vitae temporibus voluptatem eligendi eum, beatae ut.
+          </p>
+          <p class="work__project-description2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorem corrupti soluta, architecto tempore
+            omnis. Maxime nemo laudantium commodi necessitatibus non earum, repellendus deleniti vitae sapiente?
+            Excepturi
+            maiores ratione possimus?
+          </p>
+          <a class="btn work__project-btn" href="">Website</a>
+        </div>
+        <!-- Project 03 -->
+        <h3 class="work__project-title">Projeto 3</h3>
+        <div class="work__img-wrapper work__image3">
+          <img src="/projects.png" alt="Projeto 3">
+        </div>
+        <div class="work__project work__content3">
+          <h3 class="work__project-subtitle">Projeto 3</h3>
+          <p class="work__project-description1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error odio ex enim dolor quaerat rem quisquam
+            odit optio dolore repellendus facere ipsam, vitae temporibus voluptatem eligendi eum, beatae ut.
+          </p>
+          <p class="work__project-description2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorem corrupti soluta, architecto tempore
+            omnis. Maxime nemo laudantium commodi necessitatibus non earum, repellendus deleniti vitae sapiente?
+            Excepturi
+            maiores ratione possimus?
+          </p>
+          <a class="btn work__project-btn" href="">Website</a>
+        </div>
+        <!-- Project 04 -->
+        <h3 class="work__project-title">Projeto 4</h3>
+        <div class="work__img-wrapper work__image4">
+          <img src="/projects.png" alt="Projeto 4">
+        </div>
+        <div class="work__project work__content4">
+          <h3 class="work__project-subtitle">Projeto 4</h3>
+          <p class="work__project-description1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error odio ex enim dolor quaerat rem quisquam
+            odit optio dolore repellendus facere ipsam, vitae temporibus voluptatem eligendi eum, beatae ut.
+          </p>
+          <p class="work__project-description2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorem corrupti soluta, architecto tempore
+            omnis. Maxime nemo laudantium commodi necessitatibus non earum, repellendus deleniti vitae sapiente?
+            Excepturi
+            maiores ratione possimus?
+          </p>
+          <a class="btn work__project-btn" href="">Website</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact container section" id="contato">
+      <h2 class="contact__title">Entre em contato</h2>
+      <p class="contact__description">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis esse qui, aliquam magni, saepe distinctio minima
+        mollitia quae iste quos ipsa nemo non enim debitis! Illo cupiditate amet rem! Vel!
+      </p>
+      <a class="contact__btn btn" href="mailto:gabriel.br1994@gmail.com" target="_blank">Contate-Me!</a>
+    </section>
+  </main>
+  <footer class="footer container section">
+    <h3 class="footer__title">~ BR Gabe ~</h3>
+  </footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
