@@ -4,6 +4,15 @@
     gap: 1rem;
 }
 
+.about__img-wrapper {
+    margin: 0 auto;
+}
+
+.about__img{
+    border-radius: 50%;
+    width: 12.6875rem;
+ }
+
 .about__content {
     display: flex;
     flex-direction: column;
@@ -80,14 +89,15 @@
     .about__list {
         font-size: var(--size-base);
     }
+
+    .about__img {
+        /* 1rem = 16px */
+        width: 20.6875rem;
+    }
 }
 
 /* sm */
 @media (min-width: 640px) {
-
-    .about__img-wrapper {
-        margin: 0 auto;
-    }
 
     .about__img {
         /* 1rem = 16px */

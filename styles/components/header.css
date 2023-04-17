@@ -63,6 +63,11 @@
         color: var(--clr-slate600);
         width: var(--size-lg);
         height: var(--size-lg);
+        transition: color 0.3s;
+    }
+
+    .header__sun:hover {
+        color: var(--clr-lime);
     }
     
     .header__resume{
