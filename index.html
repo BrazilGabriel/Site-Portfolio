@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
   <title>Portfolio Gabriel</title>
@@ -32,7 +32,9 @@
           </button>
         </li>
         <li>
-          <a class="header__resume btn" href="#">Currículo</a>
+          <a class="header__resume btn"
+            href="https://drive.google.com/file/d/12BezPg0hnIVm3UQ0eVjCLTE-Q8RUaEL_/view?usp=sharing"
+            target=”_blank”>Currículo</a>
         </li>
       </ul>
       <button class="header__bars">
@@ -68,7 +70,9 @@
           </button>
         </li>
         <li>
-          <a class="mobile-nav__btn btn" href="#">Currículo</a>
+          <a class="mobile-nav__btn btn"
+            href="https://drive.google.com/file/d/12BezPg0hnIVm3UQ0eVjCLTE-Q8RUaEL_/view?usp=sharing"
+            target=”_blank”>Currículo</a>
         </li>
       </ul>
     </nav>
@@ -76,13 +80,13 @@
   <!-- End of Mobile Navigation -->
   <main>
     <section class="intro container">
-      <img class="intro__img" src="/avatar.png" alt="Foto de perfil">
+      <img class="intro__img" src="/about.png" alt="Foto de perfil">
       <h2 class="intro__subtitle">Olá, eu sou Gabriel 🙂</h2>
       <h1 class="intro__title">Desenvolvedor<br>Front-end<strong>.</strong></h1>
       <p class="intro__description">Um <strong>Desenvolvedor Front-end</strong> com paixão pelo código e olho afiado
         para design <strong>UX/UI</strong>.
         Comprometido em criar experiências incríveis na web!</p>
-      <a class="intro__btn btn" href="#">Contate-me</a>
+      <a class="intro__btn btn" href="mailto:gabriel.br1994@gmail.com" target="_blank">Contate-me</a>
     </section>
     <section class="about container section" id="sobre">
       <div class="about__content">
@@ -101,13 +105,14 @@
           criatividade, habilidade técnica e dedicação.
         </p> -->
         <p class="about__description">
-          Atualmente trabalho como desenvolvedor Front-end e estou em busca de oportunidades na área de <strong>programação web</strong>. Prezando pelo aprimoramento pessoal,
-          estou empenhado em criar produtos web de alto desempenho e impacto visual, trazendo vida às ideias com
+          Atualmente trabalho como desenvolvedor Front-end e estou em busca de oportunidades na área de
+          <strong>programação web</strong>. Prezando pelo aprimoramento pessoal,
+          estou empenhado em criar produtos web qualidade e com impacto visual, trazendo vida às ideias com
           criatividade, habilidade técnica e dedicação.
         </p>
         <p class="about__description">
-          Combinado com minha experiência como UX/UI designer, meu compromisso é criar soluções digitais cativantes,
-          conciliando <strong>código elegante e design intuitivo</strong> para oferecer a melhor experiência de
+          Combinado com minha experiência como UX/UI designer, meu compromisso é criar soluções digitais,
+          conciliando <strong>código eficiente e design intuitivo</strong> para oferecer a melhor experiência de
           usuário possível.
         </p>
         <hr class="about__hr">
@@ -125,15 +130,16 @@
           </ul>
         </div>
       </div>
-      <div class="about__img-wrapper">
+      <!-- <div class="about__img-wrapper">
         <img class="about__img" src="/about.png" alt="Foto secundaria">
-      </div>
+      </div> -->
     </section>
     <section class="featured container section" id="destaque">
       <h3 class="featured__subtitle">Projeto em destaque</h3>
       <div class="featured__wrapper-title">
-        <h2 class="featured__title">Music Dot</h2>
-        <a class="featured__link" href="#">
+        <h2 class="featured__title">Simpósio de Saúde Digital </h2>
+        <!-- <h2 class="featured__title">Music Dot</h2> -->
+        <a class="featured__link" href="https://i-simposio-transformacao-digital-no-sus.vercel.app">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
             <path fill-rule="evenodd"
               d="M19.902 4.098a3.75 3.75 0 00-5.304 0l-4.5 4.5a3.75 3.75 0 001.035 6.037.75.75 0 01-.646 1.353 5.25 5.25 0 01-1.449-8.45l4.5-4.5a5.25 5.25 0 117.424 7.424l-1.757 1.757a.75.75 0 11-1.06-1.06l1.757-1.757a3.75 3.75 0 000-5.304zm-7.389 4.267a.75.75 0 011-.353 5.25 5.25 0 011.449 8.45l-4.5 4.5a5.25 5.25 0 11-7.424-7.424l1.757-1.757a.75.75 0 111.06 1.06l-1.757 1.757a3.75 3.75 0 105.304 5.304l4.5-4.5a3.75 3.75 0 00-1.035-6.037.75.75 0 01-.354-1z"
@@ -142,39 +148,61 @@
         </a>
       </div>
       <p class="featured__description">
-        O Music Dot foi o primeiro projeto que criei a partir de um tutorial. Foi uma oportunidade para
-        aprender conceitos fundamentais de estrutura HTML, unidades de medida, grid, flexbox CSS e media queries.
-        Durante o processo de criação, pude entender como montar a estrutura básica de uma página web, e como aplicar
-        estilos de forma flexível criar layouts responsivos.
+        Em parceria com a Secretaria de Informação e Saúde Digital do Ministério da Saúde (SEIDIGI/MS) realizei a
+        criação do site para o 1º Simpósio Internacional Transformação Digital no SUS. Neste projeto utilizei Vanilla
+        CSS + Vite.js com o conceito de responsividade mobile first.
       </p>
       <p class="featured__description">
-        O Music Dot foi um projeto emocionante, que me proporcionou um valioso conhecimento prático e uma base sólida
+        Este foi o primeiro projeto que trabalhei profissionalmente como freelancer em desenvolvimento web, e uma ótima
+        oportunidade para
+        aplicar os conceitos fundamentais de estrutura HTML, unidades de medida, grid, flexbox CSS e media queries. Me
+        proporcionou um valioso conhecimento prático e uma base sólida
         para futuros projetos. Estou ansioso para aplicar esses conceitos em outros projetos e continuar aprendendo e
-        aprimorando minhas habilidades de desenvolvimento web.
+        aprimorando minhas habilidades na área.
       </p>
       <div class="featured__info-container">
         <div>
           <h3 class="featured__label">Tech stack</h3>
           <ul class="featured__tech-stack">
-            <li class="featured__info"></li>
-            <li class="featured__info">ReactJS</li>
-            <li class="featured__info">React-hook-form</li>
-            <li class="featured__info">NextJS</li>
-            <li class="featured__info">Axios</li>
+            <li class="featured__info">Vite</li>
+            <li class="featured__info">HTML</li>
+            <li class="featured__info">Vanilla CSS</li>
+            <li class="featured__info">Javascript</li>
+            <!-- <li class="featured__info">Axios</li>
             <li class="featured__info">Supabase</li>
-            <li class="featured__info">Stripe</li>
+            <li class="featured__info">Stripe</li> -->
           </ul>
         </div>
         <div>
           <h3 class="featured__label">Tipo do Projeto</h3>
-          <p class="featured__info">Fullstack-Jamstack</p>
+          <p class="featured__info">Landing Page</p>
         </div>
         <div>
           <h3 class="featured__label">Timeline</h3>
-          <p class="featured__info">Janeiro 2023 - Fevereiro 2023</p>
+          <p class="featured__info">Julho 2023</p>
         </div>
       </div>
       <div class="featured__img-container">
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio00.jpg" alt="Projeto Simpósio Hero">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio01.jpg" alt="Projeto Simpósio Sobre">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio02.jpg" alt="Projeto Simpósio Local">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio03.jpg" alt="Projeto Simpósio Submissão de Trabalhos">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio04.jpg" alt="Projeto Simpósio Contato">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/destaque-simposio05.jpg" alt="Projeto Simpósio Hero Mobile">
+        </div>
+      </div>
+      <!-- <div class="featured__img-container">
         <div class="featured__img-wrapper">
           <img src="/musicdot-01.png" alt="Projeto Music dot home">
         </div>
@@ -193,29 +221,32 @@
         <div class="featured__img-wrapper">
           <img src="/musicdot-06.png" alt="Projeto Music dot historia">
         </div>
-      </div>
+      </div> -->
     </section>
     <section class="work container section">
       <h2 class="work__title">Projetos</h2>
       <p class="work__description">
-        Estes são outros projetos que criei para parceiros. Aqui relato um pouco sobre o que é o projeto e um pouco das tecnologias usadas em cada um deles. (Em Atualização)
+        Estes são outros projetos que criei. Aqui relato um pouco sobre o que é o projeto e um pouco das
+        tecnologias usadas em cada um deles.
       </p>
       <div class="work__container">
         <!-- Project 01 -->
-        <h3 class="work__project-title">Simpósio de Saúde Digital</h3>
+        <h3 class="work__project-title">Custos - Gerenciamento de projetos</h3>
         <div class="work__img-wrapper work__image1">
-          <img src="/01-simposio.png" alt="Projeto Simpósio">
+          <img src="/01-custos.jpg" alt="Página inicial Custos">
         </div>
         <div class="work__project work__content1">
-          <h3 class="work__project-subtitle">Simpósio de Saúde Digital</h3>
+          <h3 class="work__project-subtitle">Custos - Gerenciamento de projetos</h3>
           <p class="work__project-description1">
-            O 1º Simpósio Internacional de Transformação Digital no SUS é uma realização da Secretaria de Informação e
-            Saúde Digital do Ministério da Saúde (SEIDIGI/MS), em parceria com a Organização Pan-Americana da Saúde
-            (OPAS) e Secretaria de Estado da Saúde do Estado de São Paulo (SES-SP).</p>
-          <p class="work__project-description2">
-            O site foi desenvolvido usando Vanilla CSS + Vite.js com responsividade mobile first.
+            Esta aplicação web permite a criação, edição e exclusão de projetos, incluindo a gestão de orçamentos. Cada
+            projeto pode ter serviços e custos associados, facilitando o acompanhamento e o controle financeiro. O
+            sistema é desenvolvido com React e estilizado com Tailwind CSS para uma interface moderna e responsiva.
           </p>
-          <a class="btn work__project-btn" href="https://i-simposio-transformacao-digital-no-sus.vercel.app" target="_blank">Website</a>
+          <p class="work__project-description2">
+            Hospedado no Vercel, a aplicação se comunica com um bancos de dados json no Render consumo e envio de informações. Essa solução ajudou a consolidar na minha meente diversas funcionalidades do react e a entender processos de comunicação em nuvem.
+          </p>
+          <a class="btn work__project-btn" href="https://costs-black.vercel.app"
+            target="_blank">Website</a>
         </div>
         <!-- Project 02 -->
         <!-- <h3 class="work__project-title">Projeto 2</h3>
