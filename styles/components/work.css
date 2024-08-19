@@ -20,7 +20,7 @@
 
 .work__img-wrapper {
     position: relative;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .work__img-wrapper img{
@@ -179,6 +179,11 @@
     .work__project-subtitle {
         display: block;
         font-size: var(--size-base);
+    }
+
+    .work__img-wrapper {
+     
+        margin: 60px auto;
     }
 }
 
